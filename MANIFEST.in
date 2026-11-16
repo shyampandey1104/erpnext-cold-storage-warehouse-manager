@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include coldstorage *.css
+recursive-include coldstorage *.csv
+recursive-include coldstorage *.html
+recursive-include coldstorage *.ico
+recursive-include coldstorage *.js
+recursive-include coldstorage *.json
+recursive-include coldstorage *.md
+recursive-include coldstorage *.png
+recursive-include coldstorage *.py
+recursive-include coldstorage *.svg
+recursive-include coldstorage *.txt
+recursive-exclude coldstorage *.pyc
